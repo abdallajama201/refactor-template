@@ -1,4 +1,5 @@
 /* Unvicersal selector css */ 
+/*Sets the width and height properties to border box and zeroes out the padding and margin of all elements*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -6,20 +7,24 @@
 }
 
 /* HTML tags css in alphabetical order */
+/*Sets the colour of the links*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*Sets the background colour of the body*/
 body {
     background-color: #d9dcd6;
 }
 
+/*Sets the font size of the long form written content*/
 p {
     font-size: 16px;
 }
 
 /* Classes css in the order the appear in the HTML */
+/*Sets the padding, fonts, background colour and text colour of header elements*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -27,15 +32,18 @@ p {
     color: #ffffff;
 }
 
+/*Sets the header headlines to inline and font size*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*Sets a subset of header headlines to a different colour*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*Sets the padding, rigth margin, fonts, and font size and specificies that box elements should float to the right*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -45,11 +53,13 @@ p {
     list-style-type: none;
 }
 
+/*Sets the elements to in the nav list to inline and pushes them 25px from the left*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*Places a hero image accros the top of the page spanning the entire width height is specified and a small margin at the bottom*/
 .hero-image {
     height: 800px;
     width: 100%;
@@ -59,12 +69,14 @@ p {
     background-position: center;
 }
 
+/*Sets a small margin from the left and strectes main to 75% of the page leaving space for aside. Elements are also displayed inline*/
 .main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Sets the properties to the section elements in main including the bottom margin, padding, height, fonts, background colours and text colour*/
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -74,10 +86,12 @@ p {
     color: #ffffff;
 }
 
+/*Sets the max height of the images in main*/
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img{
     max-height: 200px;
 }
 
+/*Allows the images in main to float right or left when attributed in the HTML*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -88,11 +102,13 @@ p {
     margin-left: 25px;
 }
 
+/*Sets the headline font size and a bottom margin for various sections of main*/
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2{
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*Sets a number of attributes for the side panel including background colour, height, width, padding, margins and fonts*/
 .aside {
     margin-right: 20px;
     padding: 20px;
@@ -104,22 +120,26 @@ p {
     background-color: #2589bd;
 }
 
+/*Sets the text colour for element in aside and a bottom margin to seperate them*/
 .aside-lead, .aside-brand, .aside-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*Sets the headline text in aside elements to be in the center and a bottom margin to seperate them from image below*/
 .aside-lead h3, .aside-brand h3, .aside-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*Sets a margin for aside images and displays them in block mode and a max width*/
 .aside-lead img, .aside-brand img, .aside-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*Sets attributes for the footer including padding, fonts and aligns text in the center*/
 .footer {
     padding: 30px;
     clear: both;
@@ -127,6 +147,7 @@ p {
     text-align: center;
 }
 
+/*Sets the font size for the footer headline*/
 .footer h2 {
     font-size: 20px;
 }
