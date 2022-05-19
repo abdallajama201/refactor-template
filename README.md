@@ -6,7 +6,7 @@ This project is a single page website for the marketing agency Horiseon Social S
  
 The page existed before and the content existed before the project started. The purpose of the project was to refactor the code leaving the content of the website unchanged. The purpose of the refactoring was to shift the codebase to following accessibility standards and increase the website's search engine optimization. An added benefit is a more maintainable codebase.
  
-## Table of Contents (Optional)
+## Table of Contents
  
 - [Usage](#usage)
 - [Changes](#changes)
