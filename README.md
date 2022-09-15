@@ -15,7 +15,7 @@ The page existed before and the content existed before the project started. The 
  
 ## Usage
  
-The website is live on the open web and can be accessed at https://abdallajama201.github.io/Challenge-01-HTML-Git-CSS/
+The website is live on the open web and can be accessed at https://abdallajama201.github.io/refactor-template/
  
 A photo of the mockup is available below.
  
